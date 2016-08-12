@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :coworking_space, CoworkingSpace.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "ronak",
-  password: "",
+  username: "postgres",
+  password: "postgres",
   database: "coworking_space_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
