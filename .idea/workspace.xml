@@ -61,21 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod.exs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="prod.exs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/prod.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="-165">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod.secret.exs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prod.secret.exs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/prod.secret.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -101,6 +101,8 @@
         <option value="$PROJECT_DIR$/lib/coworking_space/endpoint.ex" />
         <option value="$PROJECT_DIR$/web/router.ex" />
         <option value="$PROJECT_DIR$/web/controllers/session_controller.ex" />
+        <option value="$PROJECT_DIR$/config/prod.secret.exs" />
+        <option value="$PROJECT_DIR$/config/prod.exs" />
       </list>
     </option>
   </component>
@@ -364,12 +366,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470982134164</updated>
-      <workItem from="1470982135376" duration="935000" />
+      <workItem from="1470982135376" duration="1403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="935000" />
+    <option name="totallyTimeSpent" value="1403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -442,18 +444,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.exs">
+    <entry file="file://$PROJECT_DIR$/config/prod.secret.exs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.secret.exs">
+    <entry file="file://$PROJECT_DIR$/config/prod.exs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-165">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding />
         </state>
       </provider>
