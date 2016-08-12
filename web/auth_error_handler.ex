@@ -1,16 +1,16 @@
 defmodule CoworkingSpace.AuthErrorHandler do
- use Peepchat.Web, :controller
+ use CoworkingSpace.Web, :controller
 
  def unauthenticated(conn, params) do
   conn
    |> put_status(401)
-   |> render(Peepchat.ErrorView, "401.json")
+   |> render(CoworkingSpace.ErrorView, "401.json")
  end
 
  def unauthorized(conn, params) do
   conn
    |> put_status(403)
-   |> render(Peepchat.ErrorView, "403.json")
+   |> render(CoworkingSpace.ErrorView, "403.json")
  end
 
 end
