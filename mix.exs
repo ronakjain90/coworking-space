@@ -19,7 +19,7 @@ defmodule CoworkingSpace.Mixfile do
   def application do
     [mod: {CoworkingSpace, []},
      applications: [:phoenix, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :comeonin]]
   end
 
   # Specifies which paths to compile per environment.
@@ -33,7 +33,10 @@ defmodule CoworkingSpace.Mixfile do
     [{:phoenix, "~> 1.1.6"},
      {:postgrex, ">= 0.0.0"},
      {:cors_plug, "~> 1.1"},
+     {:guardian, "~> 0.12.0"},
+     {:comeonin, "~> 2.4"},
      {:phoenix_ecto, "~> 2.0"},
+     {:ja_serializer, "~> 0.8.1"},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"}]
   end
