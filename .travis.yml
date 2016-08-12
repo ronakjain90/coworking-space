@@ -1,0 +1,17 @@
+language: elixir
+elixir:
+- 1.2
+otp_release:
+- 18.2
+sudo: false
+addons:
+  postgresql: '9.4'
+before_script:
+- psql -c 'create database coworking_space_test;' -U postgres
+deploy:
+  provider: heroku
+  api_key:
+    secure: TMoh/0cFMiKnOXFP+guwrW+XtfYgJT2x6a7C1Gu85R2GfgCw8klUAFBb8l+2Q+ie5EOcZi7miFVeADHaatsAnjMIzTL1RqRXO5+viflh6pYwx5PFgzSmfvCF+7bgA5NkfjENOPrBM1iBDpvEeaoxtI62YRQT8GxmYaMk1S4zF+nJq1jGwNpUZQU1NGzU6hUgQrbhfgI+98xE5QAtnURRYSvQLNLEmEg4wWAwQc128dA579cVrg+b0oyiLb0xmMyBvDeM6eVxaHzHk4zyEfecrOa9ywNjjCUQY4cna+RvIt8o6OtMTow75WCdqzmx+o1yCN0o3/hmu6Wf67EWY/nDBXuazAKpa7EOMWehpX6l8IkIlhw8Ow87A0Xh6dJCME49Z02hmFQJtGpN4DUfLZWMGItqPSHY1f/FBB0uCnXGIZA1DWJgoprqksmK2jgJmr7jyb3U/S9X6JYuiaGBIz3RCQGgHl/8e/iljmw4RzDSgBqJiV9ts3Ey+iihTlStqryYlr7QNd/4w+A7qb4wbyL3aGAopfuko+lI3b+3QW92wPxTMnQDzrm5FDz5FgLsjFHPdHBQbNee8xCdT9YXhIbGHYWhh33UFS0guw+N3lrd7+U16V5gQdybyRB2tMRCZ+vW5j6LqkutPxE96hicdlsuGaUVvc0Ci1K/fia1Eec9v70=
+  app: limitless-sierra-25141
+  on:
+    repo: ronakjain90/coworking-space
